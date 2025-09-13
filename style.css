@@ -1,0 +1,111 @@
+body{
+  background-color: black;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cal{
+  background-color:  black;
+  width: 400px;
+  height:510px;
+  margin-top:90px;
+  border:none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 100px 10px lawngreen;
+}
+
+
+.container {
+  background-color: black;
+  border: solid 2px black;
+  border-radius: 10px;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 90%;
+  height: 100px;
+  margin: auto;
+}
+
+.butcontainer{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+.button, .button1, .button2 {
+  flex: 1 1 20%;  /* grow, shrink, basis */
+  max-width: 70px;
+  height: 50px;
+  margin: 10px;
+}
+
+.button {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border: none;
+  border-radius: 7px;
+  font-size: 25px;
+}
+
+.button1 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  border: none;
+  border-radius: 7px;
+  font-size: 25px;
+}
+
+.button2 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  border: none;  
+  border-radius: 7px;
+  font-size: 25px;
+}
+
+.button:hover {
+  background-color: darkgray;
+}
+
+.button1:hover {
+  background-color: darkslategray;
+}
+
+.button2:hover {
+  background-color: darkorange;
+}
+
+button:focus {
+  outline: none;
+  background-color: inherit;
+}
+button:active {
+  filter: brightness(85%);
+}
+
+.text {
+  color:white;
+  background-color: red;
+  width: 80%;
+  height: 24px;
+  font-size: 19px;
+  border:none;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
