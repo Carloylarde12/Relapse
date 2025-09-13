@@ -16,6 +16,7 @@ body{
   box-shadow: 0px 0px 100px 10px lawngreen;
 }
 
+
 .container {
   background-color: black;
   border: solid 2px black;
@@ -115,10 +116,6 @@ button:active {
   font-size: 25px;
   border:none;
   border-radius: 10px;
-  text-align: center;
-  margin: auto;
-  margin-top: 30px;
-}
   text-align: center;
   margin: auto;
   margin-top: 30px;
