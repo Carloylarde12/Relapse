@@ -8,8 +8,8 @@ body{
 
 .cal{
   background-color:  black;
-  width: 400px;
-  height:510px;
+  width: 90%;
+  height: 1300px;
   margin-top:90px;
   border:none;
   border-radius: 20px;
@@ -22,13 +22,15 @@ body{
   border: solid 2px black;
   border-radius: 10px;
   color: white;
-  font-size: 25px;
+  font-size: 80px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  width: 90%;
-  height: 100px;
+  width: 80%;
+  height: 30%;
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .butcontainer{
@@ -42,9 +44,10 @@ body{
 
 .button, .button1, .button2 {
   flex: 1 1 20%;  /* grow, shrink, basis */
-  max-width: 70px;
-  height: 50px;
-  margin: 10px;
+  max-width: 150px;
+  height: 100px;
+  margin: 15px;
+  font-size: 40px;
 }
 
 .button {
@@ -53,8 +56,7 @@ body{
   align-items: center;
   background-color: lightgray;
   border: none;
-  border-radius: 7px;
-  font-size: 25px;
+  border-radius: 10px;
 }
 
 .button1 {
@@ -63,8 +65,7 @@ body{
   align-items: center;
   background-color: gray;
   border: none;
-  border-radius: 7px;
-  font-size: 25px;
+  border-radius: 10px;
 }
 
 .button2 {
@@ -73,8 +74,7 @@ body{
   align-items: center;
   background-color: orange;
   border: none;  
-  border-radius: 7px;
-  font-size: 25px;
+  border-radius: 10px;
 }
 
 .button:hover {
@@ -89,10 +89,21 @@ body{
   background-color: darkorange;
 }
 
-button:focus {
+.button:focus {
   outline: none;
-  background-color: inherit;
+  background-color: lightgray;
 }
+
+.button1:focus {
+  outline: none;
+  background-color: gray;
+}
+
+.button2:focus {
+  outline: none;
+  background-color: orange;
+}
+
 button:active {
   filter: brightness(85%);
 }
@@ -101,10 +112,14 @@ button:active {
   color:white;
   background-color: red;
   width: 80%;
-  height: 24px;
-  font-size: 19px;
+  height: 30px;
+  font-size: 25px;
   border:none;
   border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
   text-align: center;
   margin: auto;
   margin-top: 30px;
